@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<form action="/spareparts_Servlet" method="post">
+    Model Number  :  <input type="text" name="model"><br><br>
+    Name  :  <input type="text" name="name"><br><br>
+    Brand  :  <input type="text" name="brand"><br><br>
+    Price  :  <input type="text" name="price"><br><br>
+    Number of units  :  <input type="text" name="units"><br><br>
+    Vehicle ID  ;  <input type="text" name="veh_id"><br><br>
+    TAX  ;  <input type="text" name="tax"><br><br>
+    <input type="submit" value="Click to add details"><br><br>
+
+</form>
+<br><br><br>
+<form action="/deletespareparts_servlet" method="post">
+    Enter the model number you want to be deleted  :  <input type="text" name="id_del"><br>
+    <input type="submit" value="Click to delete the record">
+
+</form>
+
+</form>
+<br><br><br>
+<form action="/List_Spare_Servlet" method="post">
+    <input type="submit" value="Click to show Spare Parts List">
+
+</form>
+</body>
+</html>

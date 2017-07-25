@@ -1,0 +1,64 @@
+input[type=text],input[type=number], select {
+    width: 40%;
+    /*padding: 12px 20px;*/
+    /*margin: 8px 0;*/
+    padding-left: 10px;
+    /*margin-left: 30%;*/
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: content-box;
+    height: 20px;
+    background-color: lightgray;
+}
+
+fieldset {
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #45a049;
+}
+
+
+
+img{
+    /*width: 140px;*/
+    /*height: 140px;*/
+    position: absolute;
+    right: 200px;
+    top: 220px;
+    /*width: 300px;*/
+    padding: 10px;
+
+}
+
+legend{
+    color: black;
+    text-transform: uppercase;
+    text-emphasis: black;
+    text-decoration: solid;
+
+}
+
+input[type=submit],button,a {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+form{
+    width:100%;
+}
+div {
+    padding: 10px;
+}

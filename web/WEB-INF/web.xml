@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+           version="3.0">
+
+    <servlet>
+        <servlet-name>spareparts_Servlet</servlet-name>
+        <servlet-class>spareparts_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>spareparts_Servlet</servlet-name>
+        <url-pattern>/spareparts_Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deletespareparts_servlet</servlet-name>
+        <servlet-class>deletespareparts_servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deletespareparts_servlet</servlet-name>
+        <url-pattern>/deletespareparts_servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>List_Spare_Servlet</servlet-name>
+        <servlet-class>List_Spare_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>List_Spare_Servlet</servlet-name>
+        <url-pattern>/List_Spare_Servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Login_Servlet</servlet-name>
+        <servlet-class>Login_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login_Servlet</servlet-name>
+        <url-pattern>/Login_Servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChangePriceServlet</servlet-name>
+        <servlet-class>ChangePriceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangePriceServlet</servlet-name>
+        <url-pattern>/ChangePriceServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ChangePriceServlet1</servlet-name>
+        <servlet-class>ChangePriceServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangePriceServlet1</servlet-name>
+        <url-pattern>/ChangePriceServlet1</url-pattern>
+    </servlet-mapping>
+
+</web-app>
